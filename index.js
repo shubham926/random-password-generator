@@ -4,6 +4,7 @@ const numbers = "0123456789"
 const symbols = "!@#$%^&*()"
 
 const passwordLength = document.getElementById("password-length")
+passwordLength.value = 16
 const uppercaseCheck = document.getElementById("uppercase")
 const lowercaseCheck = document.getElementById("lowercase")
 const numbersCheck = document.getElementById("numbers")
